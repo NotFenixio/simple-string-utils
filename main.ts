@@ -1,4 +1,17 @@
 /**
+ * This module contains all the available functions for converting between cases.
+ * @module
+ * @example
+ * ```ts
+ * import {
+ *  camelToSnake,
+ * } from './main.ts';
+ * 
+ * console.log(camelToSnake("helloWorld"));
+ * ```
+ */
+
+/**
  * Converts camelCase to snake_case.
  * @param str - The camelCase string.
  * @returns The snake_case string.
